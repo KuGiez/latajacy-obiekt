@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(31, 30, 30);
+    height: 100vh;
+}
+
+#game{
+    background-color: darkgray;
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+
+.obiekt{
+    background-color: rgb(128, 0, 0);
+}
+
+.pocisk{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 241);
+}
+
+.armata{
+    background-color: black;
+    transform-origin: center bottom;
+}
+
+h1 {
+    background-color: rgb(128, 0, 0);
+    color:antiquewhite;
+    text-shadow: 10px;
+    text-align: center;
+    text-shadow: rgb(255, 255, 241);
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    background-color: rgb(128, 0, 0);
+    color:antiquewhite;
+    text-shadow: 1000px;
+    text-shadow: rgb(255, 255, 241);
+    text-align: center;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#magazynek, #komora, #punktacja, #zycia{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+}
